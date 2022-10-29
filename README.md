@@ -1,0 +1,1 @@
+# techersinn-static-page

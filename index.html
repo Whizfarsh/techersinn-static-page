@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/reusuable.css" />
+		<link rel="stylesheet" href="css/mediaqueries.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+		<title>Techersinn blog</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<a href="/">
+				<img class="blog-logo" src="img/techersinn.png" alt="techersinn logo" />
+			</a>
+			<nav class="main-top-nav">
+				<ul class="header-nav">
+					<li><a class="header-nav-lists" href="">Home</a></li>
+					<li><a class="header-nav-lists" href="">Html Space</a></li>
+					<li><a class="header-nav-lists" href="">CSS Space</a></li>
+					<li><a class="header-nav-lists" href="">JS Space</a></li>
+					<li><a class="header-nav-lists" href="">Other Languages</a></li>
+					<ion-icon class="nav-icon" name="search-outline"></ion-icon>
+				</ul>
+				<!-- <ion-icon class="nav-icon" name="search-outline"></ion-icon> -->
+			</nav>
+			<!-- mobile nav -->
+			<button class="btn-mobile-nav">
+				<ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+				<ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+			</button>
+		</header>
+		<main>
+			<section class="featured-section">
+				<div class="featured-post">
+					<div class="featured">
+						<p class="featured-box">Featured</p>
+						<h1 class="featured-post-title">
+							<a href=""
+								>In What situation is paragraphs element useful in web
+								development</a
+							>
+						</h1>
+						<p class="featured-post-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Voluptates at cupiditate provident omnis dolore, a ab quae iusto
+							qui, autem quasi incidunt odit molestiae nostrum numquam rerum,
+							excepturi animi obcaecati cum soluta minima hic! Placeat,
+							molestiae? Dolores facilis molestiae architecto amet veniam fugit
+							obcaecati molestias eaque at. Cum, aspernatur explicabo?
+						</p>
+						<div class="post-details">
+							<p class="post-detail post-cat">
+								<ion-icon
+									class="post-icon"
+									name="folder-open-outline"
+								></ion-icon
+								><a href="">HTML SPACE</a>
+							</p>
+							<p class="post-detail">
+								<ion-icon class="post-icon" name="person-outline"></ion-icon
+								>FARSH
+							</p>
+							<p class="post-detail">
+								<ion-icon class="post-icon" name="calendar-outline"></ion-icon
+								>10/24/2022
+							</p>
+							<p class="post-detail">
+								<ion-icon class="post-icon" name="eye-outline"></ion-icon
+								><span>200</span>
+							</p>
+						</div>
+					</div>
+
+					<button class="featured-btn featured-btn--left">
+						<ion-icon
+							class="featured-btn-icon"
+							name="chevron-back-outline"
+						></ion-icon>
+					</button>
+					<button class="featured-btn featured-btn--right">
+						<ion-icon
+							class="featured-btn-icon"
+							name="chevron-forward-outline"
+						></ion-icon>
+					</button>
+				</div>
+				<div class="car-button">
+					<div class="carosels carosels-others"></div>
+					<div class="carosels carosels-active"></div>
+					<div class="carosels carosels-others"></div>
+					<div class="carosels carosels-others"></div>
+				</div>
+			</section>
+			<section class="post-section">
+				<article class="post-articles">
+					<!-- -- -->
+					<!-- to be used later -->
+					<!-- <div class="post-contents irr">
+						<img
+							class="post-images"
+							src="img/postimg/Important html elements.jpg"
+							alt="a picture show some html code"
+						/>
+					</div>
+					<div class="post-contents">
+						<a href="" class="ptb">
+							<img
+								class="post-images"
+								src="img/postimg/Important html elements 1.jpg"
+								alt="a picture show some html code"
+							/>
+
+							<div class="pst-bg"></div>
+							<div class="new-post-details">
+								<h2 class="post-title">
+									<a href="">Useful HTML you should master today.</a>
+								</h2>
+								<p class="post-categories"><a href="">HTML SPACE</a></p>
+							</div>
+						</a>
+					</div>
+                     
+					<div class="post-contents irr">
+						<a href="" class="ptb">
+							<img
+								class="post-images post-images-bg"
+								src="img/postimg/Important html elements 1.jpg"
+								alt="a picture show some html code"
+							/>
+						</a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Useful HTML you should master today.</a>
+							</h2>
+							<p class="post-categories"><a href="">HTML SPACE</a></p>
+						</div>
+					</div>
+                -->
+					<!-- ---------------- -->
+
+					<div class="post-contents">
+						<a class="post-link" href="" role="img" aria-label="post image">
+							<img
+								class="post-images post-images-bg"
+								src="img/postimg/Important html elements 1.jpg"
+								alt="a picture show some html code"
+							/>
+						</a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Useful HTML you should master today.</a>
+							</h2>
+							<p class="post-categories"><a href="">HTML SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important css elements 1.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Pinterest Boards of All Time About Css</a>
+							</h2>
+							<p class="post-categories"><a href="">CSS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important html elements 2.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">The Advanced Guide to Html</a>
+							</h2>
+							<p class="post-categories"><a href="">HTML SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important js elements 1.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Best Blogs to Follow About Javascript.</a>
+							</h2>
+							<p class="post-categories"><a href="">JS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important html elements 3.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Don't Make This Silly Mistake With Your Html.</a>
+							</h2>
+							<p class="post-categories"><a href="">HTML SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important css elements 2.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Must-Follow Facebook Pages for Css Marketers.</a>
+							</h2>
+							<p class="post-categories"><a href="">CSS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important css elements 4.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Tips for Making a Good Css Even Better.</a>
+							</h2>
+							<p class="post-categories"><a href="">CSS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important js elements 2.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Ways to Completely Revamp Your Javascript.</a>
+							</h2>
+							<p class="post-categories"><a href="">JS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important html elements 4.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Sites to Help You Become an Expert in Html.</a>
+							</h2>
+							<p class="post-categories"><a href="">HTML SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important js elements 3.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Meetups About Javascript You Should Attend.</a>
+							</h2>
+							<p class="post-categories"><a href="">JS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important html elements 6.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Most Common Complaints About Html.</a>
+							</h2>
+							<p class="post-categories"><a href="">HTML SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important css elements 6.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Things Most People Don't Know About Css.</a>
+							</h2>
+							<p class="post-categories"><a href="">CSS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important html elements 8.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Become Great Html Public Speaker.</a>
+							</h2>
+							<p class="post-categories"><a href="">HTML SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important css elements 8.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Signs You Should Invest in Css Fundamentals.</a>
+							</h2>
+							<p class="post-categories"><a href="">CSS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+					<div class="post-contents">
+						<a class="post-link" href=""
+							><img
+								class="post-images post-images-bg"
+								src="img/postimg/Important js elements 4.jpg"
+								alt="a picture show some html code"
+						/></a>
+						<div class="new-post-details">
+							<h2 class="post-title">
+								<a href="">Surprising Stats About Javascript.</a>
+							</h2>
+							<p class="post-categories"><a href="">JS SPACE</a></p>
+						</div>
+						<div class="post-bg-over"></div>
+					</div>
+					<!-- -- -->
+				</article>
+				<div class="home-post-loader">
+					<button class="home-post-load">Load more</button>
+				</div>
+			</section>
+			<section class="footer-section">
+				<div class="footer-area">
+					<!-- <div class="footer-contents"> -->
+					<div class="footer-logo-with-description">
+						<div class="ft-logo">
+							<a href=""
+								><img
+									class="footer-logo"
+									src="./img/techersinn logo.png"
+									alt="techersinn logo"
+								/>
+							</a>
+						</div>
+						<div>
+							<p class="footer-site-description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Aspernatur unde error, quaerat soluta ipsam vero.
+							</p>
+						</div>
+					</div>
+					<!-- </div> -->
+					<div class="footer-contents">
+						<div class="footer-logo-with-copyright">
+							<h3 class="heading-h3 center-text">Navigate blog</h3>
+							<ul class="footer-nav">
+								<li><a class="footer-nav-lists" href="">Home</a></li>
+								<li><a class="footer-nav-lists" href="">About us</a></li>
+								<li><a class="footer-nav-lists" href="">Privacy</a></li>
+								<li><a class="footer-nav-lists" href="">Terms of use</a></li>
+								<li><a class="footer-nav-lists" href="">Contact us</a></li>
+								<!-- <ion-icon class="nav-icon" name="search-outline"></ion-icon> -->
+							</ul>
+						</div>
+					</div>
+					<div class="footer-contents">
+						<div class="footer-logo-with-copyright">
+							<h3 class="heading-h3 center-text">Categories</h3>
+							<ul class="footer-catswtags">
+								<li><a class="cats-lists" href="">Html Space</a></li>
+								<li><a class="cats-lists" href="">CSS Space</a></li>
+								<li><a class="cats-lists" href="">JS Space</a></li>
+								<li><a class="cats-lists" href="">Other Languages</a></li>
+								<!-- <ion-icon class="nav-icon" name="search-outline"></ion-icon> -->
+							</ul>
+						</div>
+					</div>
+					<div class="footer-contents">
+						<div class="footer-logo-with-copyright">
+							<!-- <a href=""
+								><img
+									class="footer-logo"
+									src="./img/techersinn logo.png"
+									alt="techersinn logo"
+								/>
+							</a> -->
+							<h3 class="heading-h3 center-text">Connect with us</h3>
+							<ul class="social-links">
+								<li class="a">
+									<a class="footer-link" href=""
+										><ion-icon
+											class="social-icon"
+											name="logo-instagram"
+										></ion-icon
+									></a>
+								</li>
+								<li class="a">
+									<a class="footer-link" href=""
+										><ion-icon
+											class="social-icon"
+											name="logo-facebook"
+										></ion-icon
+									></a>
+								</li>
+								<li class="a">
+									<a class="footer-link" href=""
+										><ion-icon
+											class="social-icon"
+											name="logo-twitter"
+										></ion-icon
+									></a>
+								</li>
+							</ul>
+							<p class="footer-copyright">
+								Copyright &copy: 2022 Designed by FARSH,. All rights reserved
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>
